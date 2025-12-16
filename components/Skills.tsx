@@ -15,11 +15,11 @@ const Skills: React.FC = () => {
     },
     {
       title: "Database",
-      skills: ["MySQL", "PostgreSQL", "TypeORM"]
+      skills: ["MySQL", "PostgreSQL",, "GCP", "TypeORM"]
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "GitHub", "Bitbucket", "Docker", "GCP", "Redis", "LangGraph", "CI/CD" ,
+      skills: ["Git", "GitHub", "Bitbucket", "Docker", "Redis", "LangGraph", "vercel" , "Netlify" , "CI/CD" ,
       "Cursor" , "Wibe Coding"
       ]
     },

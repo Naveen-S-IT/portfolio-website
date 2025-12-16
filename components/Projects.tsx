@@ -59,11 +59,11 @@ const Projects: React.FC = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              whileHover={{ 
-                y: -12, 
-                boxShadow: "0 20px 40px -5px rgba(14, 165, 233, 0.15)",
-                borderColor: "rgba(56, 189, 248, 0.4)"
-              }}
+              // whileHover={{ 
+              //   y: -12, 
+              //   boxShadow: "0 20px 40px -5px rgba(14, 165, 233, 0.15)",
+              //   borderColor: "rgba(56, 189, 248, 0.4)"
+              // }}
               className="group bg-white dark:bg-slate-800/50 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 shadow-lg dark:shadow-slate-900/50 hover:shadow-2xl hover:shadow-sky-500/20 dark:hover:shadow-sky-500/10 transition-all duration-300 flex flex-col backdrop-blur-sm"
             >
               <div className="relative h-48 overflow-hidden bg-gradient-to-br from-sky-100 to-blue-100 dark:from-slate-700 dark:to-slate-800">
@@ -86,9 +86,9 @@ const Projects: React.FC = () => {
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white group-hover:text-primary-500 dark:group-hover:text-sky-400 transition-colors flex-1">
                     {project.title}
                   </h3>
-                  <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-400 to-primary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                  {/* <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-sky-400 to-primary-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
                     <ExternalLink className="w-4 h-4 text-white" />
-                  </div>
+                  </div> */}
                 </div>
                 <p className="text-slate-600 dark:text-slate-300 mb-6 flex-1 text-sm leading-relaxed">
                   {project.description}
