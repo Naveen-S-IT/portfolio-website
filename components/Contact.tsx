@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Github, Linkedin, ArrowUp } from 'lucide-react';
+import { Mail, Github, Linkedin, Instagram, ArrowUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Contact: React.FC = () => {
@@ -36,6 +36,10 @@ const Contact: React.FC = () => {
                <motion.a whileHover={{ y: -3, color: '#fff' }} href="#" className="text-slate-400 transition-colors">
                  <span className="sr-only">LinkedIn</span>
                  <Linkedin size={24} />
+               </motion.a>
+               <motion.a whileHover={{ y: -3, color: '#fff' }} href="#" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
+                 <span className="sr-only">Instagram</span>
+                 <Instagram size={24} />
                </motion.a>
             </div>
           </div>

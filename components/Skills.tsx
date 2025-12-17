@@ -19,7 +19,7 @@ const Skills: React.FC = () => {
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "GitHub", "Bitbucket", "Docker", "Redis", "LangGraph", "vercel" , "Netlify" , "CI/CD" ,
+      skills: ["Git", "GitHub", "Bitbucket", "Docker", "Redis", "LangGraph", "vercel" , "Netlify" ,
       "Cursor" , "Wibe Coding"
       ]
     },

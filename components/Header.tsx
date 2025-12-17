@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Moon, Sun, Github, Linkedin } from 'lucide-react';
+import { Menu, X, Moon, Sun, Github, Linkedin, Instagram } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface HeaderProps {
@@ -81,6 +81,16 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleTheme }) => {
               className="text-slate-500 hover:text-primary-600 dark:text-slate-400 dark:hover:text-white transition-colors"
             >
               <Linkedin size={20} />
+            </motion.a>
+            <motion.a
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-primary-600 dark:text-slate-400 dark:hover:text-white transition-colors"
+            >
+              <Instagram size={20} />
             </motion.a>
             <motion.button
               whileHover={{ scale: 1.1, rotate: 15 }}
