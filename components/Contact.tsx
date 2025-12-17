@@ -53,7 +53,7 @@ const Contact: React.FC = () => {
           className="pt-8 flex flex-col md:flex-row justify-between items-center"
         >
           <p className="text-slate-500 text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Naveen. All rights reserved. Built with React & Tailwind.
+            &copy; {new Date().getFullYear()} Naveen. All rights reserved. Built with Next.js & Tailwind.
           </p>
           
           <motion.a 
