@@ -6,20 +6,29 @@ import { motion } from 'framer-motion';
 const Experience: React.FC = () => {
   const experiences: ExperienceType[] = [
     {
-      id: 2,
+      id: 1,
       role: "Frontend Developer",
       company: "Nano Nino",
-      period: "2023 – 2025",
-      description: "Developed and maintained the frontend websites using Angular , Nuxt.js , Next.js with Tailwind CSS & Bootstrap."
+      period: "Aug 2023 – Apr 2025",
+      description: "Developed responsive frontend applications using Angular, Nuxt.js, and Next.js. Built reusable UI components and integrated REST APIs. Improved usability and performance through clean code and responsive design practices."
     },
     {
       id: 1,
       role: "Full-Stack Developer",
       company: "CourseRev",
-      period: "2025 – Present",
-      description: "Developed and maintained the frontend and backend of the chat assistant platform using Next.js , TypeScript , Tailwind CSS , PostgreSQL , NestJS , Redis."
+      period: "Apr 2025 – Nov 2025",
+      description: "Developed and maintained full-stack applications using Nest.js and relational database MySql. Built REST APIs and handled frontend–backend integration. Deployed and managed applications on GCP & Netlify."
+    },
+    {
+      id: 3,
+      role: "AI Assistant Chat Developer",
+      company: "CourseRev",
+      period: "Nov 2025 – Present",
+      description: "Developed AI chat assistant modules using LangGraph workflows. Integrated Redis vector search (KNN) to retrieve relevant documents for conversational responses."
     }
   ];
+  
+ 
 
   return (
     <section id="experience" className="py-20 relative overflow-hidden">

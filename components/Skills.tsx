@@ -7,20 +7,20 @@ const Skills: React.FC = () => {
   const skillCategories: SkillCategory[] = [
     {
       title: "Frontend",
-      skills: ["Next.js","Nuxt 3", "Angular", "Tailwind CSS", "Bootstrap", "TypeScript"]
+      skills: [ "HTML", "CSS", "JavaScript", "Next.js","Nuxt.js", "Angular", "Tailwind CSS", "Bootstrap", "TypeScript"]
     },
     {
       title: "Backend",
-      skills: ["Node.js", "NestJS", "RESTful APIs"]
+      skills: ["NestJS", "RESTful APIs","Https","GCP", "TypeORM"]
     },
     {
       title: "Database",
-      skills: ["MySQL", "PostgreSQL",, "GCP", "TypeORM"]
+      skills: ["MySQL", "PostgreSQL", "DBeaver"]
     },
     {
       title: "Tools & Platforms",
-      skills: ["Git", "GitHub", "Bitbucket", "Docker", "Redis", "LangGraph", "vercel" , "Netlify" ,
-      "Cursor" , "Wibe Coding"
+      skills: ["Docker", "SourceTree", "Redis", "LangGraph", "vercel" , "Netlify" ,
+      "Cursor" ,"Agile", "Wibe Coding Tools", "Git", "Bitbucket"
       ]
     },
   ];

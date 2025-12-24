@@ -35,8 +35,7 @@ const Hero: React.FC = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-slate-600 dark:text-slate-400 mb-8 leading-relaxed max-w-2xl"
           >
-            I build scalable  high-performance web applications using Next.js, Nuxt.js, Angular and NestJS. 
-            Passionate about clean UI architecture and maintainable code.
+            Full Stack Web Developer with 2.5+ years of experience building scalable web applications using Angular, Next.js, Nuxt.js, Nest.js, TypeScript and JavaScript. Experienced in developing admin dashboards, booking platforms, and AI-assisted features. Strong working knowledge of PostgreSQL, MySQL, Redis and deploying applications on Google Cloud Platform (GCP).
           </motion.p>
 
           <motion.div 

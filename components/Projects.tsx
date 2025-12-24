@@ -7,32 +7,39 @@ const Projects: React.FC = () => {
   const projects: Project[] = [
     {
       id: 1,
-      title: "AI Chat Assistant",
-      description: "A chat assistant with AI powered by LangGraph for conversation flows. and give answers based on the knowledge base. also have a chat history feature to remember the conversation. and have a chatbot feature to chat with the user.",
-      tags: ["Next.js", "TypeScript" , "Tailwind" , "Redis" , "LangGraph" , "PostgreSQL"],
+      title: "CrewPass",
+      description: "Angular-based application to manage document uploads, verification, and candidate status tracking.Implemented notification workflows based on document review status.",
+      tags: ["Angular", "TypeScript" , "Bootstrap" , "RESTful APIs"],
       imageUrl: "https://picsum.photos/seed/ai/800/600"
     },
     {
       id: 2,
-      title: "Chat Management Dashboard",
-      description: "Comprehensive super-admin dashboard with compaination nest.js backend support for managing origins, knowledge base, agents, vector searches and system analytics.",
-      tags: ["Next.js", "TypeScript" , "Tailwind", "PostgreSQL", "Docker" , "NestJS" , "Redis"],
-      imageUrl: "https://picsum.photos/seed/chat/800/600"
-    },
-    {
-      id: 3,
       title: "Course Booking Platform",
-      description: "A golf course teetimee booking platform with payment gateway integration.",
-      tags: ["Next.js", "TypeScript" , "Tailwind", "PostgreSQL" , "Stripe" , "NestJS" , "Redis"],
+      description: "Next.js-based booking engine with real-time availability and waitlist management.",
+      tags: ["Next.js", "TypeScript" , "Tailwind" , "RESTful APIs"],
       imageUrl: "https://picsum.photos/seed/course/800/600"
     },
     {
-      id: 1,
+      id: 3,
       title: "Waiting List Management System",
       description: "A golf course based booking with waiting list management system.",
       tags: ["Next.js", "TypeScript" , "Tailwind", "PostgreSQL"],
       imageUrl: "https://picsum.photos/seed/waiting/800/600"
     },
+    {
+      id: 4,
+      title: "A full stack web application used to manage documents.",
+      description: "Built a full-stack KB management system with Redis vector search for document storage and retrieval. Implemented origin whitelisting and similarity-based search , managed data using PostgreSQL.",
+      tags: ["Next.js", "TypeScript" , "Tailwind", "PostgreSQL", "Docker" , "NestJS" , "Redis"],
+      imageUrl: "https://picsum.photos/seed/chat/800/600"
+    },
+    {
+      id: 5,
+      title: "Courserev assistant chat",
+      description: "Built an AI agent workflow using LangGraph with Redis-based KNN vector search for relevant document retrieval.Developed a user interface to capture inputs and orchestrate LLM-driven conversational responses.",
+      tags: ["Next.js", "TypeScript" , "Tailwind" , "Redis" , "LangGraph" , "PostgreSQL"],
+      imageUrl: "https://picsum.photos/seed/ai/800/600"
+    }
   ];
 
   return (
