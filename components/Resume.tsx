@@ -26,8 +26,9 @@ const Resume: React.FC = () => {
               <motion.a 
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                href="/resume.pdf" 
-                download
+                href="https://drive.google.com/uc?export=download&id=1L0lUgKZK34w69c4JWHs5JLMJ1HmPJMiw" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex justify-center items-center px-6 py-4 border border-transparent text-base font-medium rounded-xl text-white bg-slate-900 dark:bg-white dark:text-slate-900 hover:bg-slate-800 dark:hover:bg-sky-50 transition-all shadow-xl shadow-slate-900/10"
               >
                 <Download className="mr-3 h-5 w-5" />
@@ -36,8 +37,9 @@ const Resume: React.FC = () => {
               <motion.a 
                 whileHover={{ scale: 1.02, y: -2 }}
                 whileTap={{ scale: 0.98 }}
-                href="/resume.pdf" 
+                href="https://drive.google.com/file/d/1L0lUgKZK34w69c4JWHs5JLMJ1HmPJMiw/view?usp=drive_link" 
                 target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex justify-center items-center px-6 py-4 border border-slate-200 dark:border-slate-600 text-base font-medium rounded-xl text-slate-700 dark:text-slate-200 bg-white dark:bg-slate-800/80 hover:bg-sky-50 dark:hover:bg-slate-700/80 transition-all shadow-sm"
               >
                 <ExternalLink className="mr-3 h-5 w-5" />

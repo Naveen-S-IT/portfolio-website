@@ -29,18 +29,18 @@ const Contact: React.FC = () => {
               navinmails4u@gmail.com
             </motion.a>
             <div className="flex space-x-6">
-               <motion.a whileHover={{ y: -3, color: '#fff' }} href="https://github.com/NN-Naveen-S" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
+               <motion.a whileHover={{ y: -3, color: '#fff' }} href="https://github.com/Naveen-S-IT" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
                  <span className="sr-only">GitHub</span>
                  <Github size={24} />
                </motion.a>
-               <motion.a whileHover={{ y: -3, color: '#fff' }} href="#" className="text-slate-400 transition-colors">
+               <motion.a whileHover={{ y: -3, color: '#fff' }} href="https://www.linkedin.com/in/naveen-s-03b94b267" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
                  <span className="sr-only">LinkedIn</span>
                  <Linkedin size={24} />
                </motion.a>
-               <motion.a whileHover={{ y: -3, color: '#fff' }} href="#" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
+               {/* <motion.a whileHover={{ y: -3, color: '#fff' }} href="#" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
                  <span className="sr-only">Instagram</span>
                  <Instagram size={24} />
-               </motion.a>
+               </motion.a> */}
             </div>
           </div>
         </motion.div>
