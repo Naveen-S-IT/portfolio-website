@@ -77,7 +77,7 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleTheme }) => {
             <motion.a
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.95 }}
-              href="https://www.linkedin.com/in/naveen-s-03b94b267"
+              href="https://www.linkedin.com/in/naveen-selvam-softwaredeveloper"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-500 hover:text-primary-600 dark:text-slate-400 dark:hover:text-white transition-colors"

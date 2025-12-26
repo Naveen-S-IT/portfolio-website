@@ -33,7 +33,7 @@ const Contact: React.FC = () => {
                  <span className="sr-only">GitHub</span>
                  <Github size={24} />
                </motion.a>
-               <motion.a whileHover={{ y: -3, color: '#fff' }} href="https://www.linkedin.com/in/naveen-s-03b94b267" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
+               <motion.a whileHover={{ y: -3, color: '#fff' }} href="https://www.linkedin.com/in/naveen-selvam-softwaredeveloper" target="_blank" rel="noopener noreferrer" className="text-slate-400 transition-colors">
                  <span className="sr-only">LinkedIn</span>
                  <Linkedin size={24} />
                </motion.a>
